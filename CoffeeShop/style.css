@@ -1,0 +1,71 @@
+body{
+    background-image: url(img/main.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+.main{
+    padding: 20px;
+    width: 80%;
+    background-color: burlywood;
+    margin: 0 auto;
+    max-width: 500px;
+}
+h1,p,h2{
+    text-align: center;
+}
+h1, h2{
+    font-family: Impact, serif;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+.est{
+    font-style: italic;
+}
+hr{
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+.item p{
+    display: inline-block;
+    margin: 5px 0;
+}
+.flavour,.dessert{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+.bline{
+    margin-top: 25px;
+}
+
+/* footer  */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: burlywood;
+}
+
+.name{
+    margin-bottom: 5px;
+}
