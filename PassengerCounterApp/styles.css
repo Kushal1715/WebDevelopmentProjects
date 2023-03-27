@@ -1,0 +1,49 @@
+body{
+    background-image: url("station.jpg");
+    background-size: cover;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    /* color: white; */
+    height: 100vh;
+}
+
+.container{
+    background: white;
+    max-width: 30%;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button{
+    border: none;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    /* background-color: darkred; */
+    cursor: pointer;
+}
+
+#increment-btn{
+    background-color: darkred;
+}
+
+#save-btn{
+    background-color: green;
+}
+
